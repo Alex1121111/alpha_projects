@@ -29,7 +29,7 @@ class Chatbox{
             chatBox.classList.add('chatbox--active')
         }
         else{
-            chatbox.classList.remove('chatbox--active')
+            chatBox.classList.remove('chatbox--active')
         }
     }
     onSendButton(chatbox){
