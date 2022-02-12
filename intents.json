@@ -46,7 +46,7 @@
         },
         {"tag": "loginissue",
          "patterns": ["I'm not able to login", "unable to login", "login issue", "otp not received", "otp not working","I didn't receive any otp","I didn't receive OTP","" ],
-         "responses": ["We are extreamly sorry for this </li><li> please use <href https://cropify.onrender.com/index> for predictions."],
+         "responses": ["We are extreamly sorry for this please <a class='click' href='/index' target='_blank'>click Here</a> for predictions."],
          "context": [""]
         }
    ]
