@@ -17,13 +17,15 @@ import os
 import cv2
 import numpy as np
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+
 # New imports
 # Keras
 
 # Flask utils
 # Define a flask app
 app = Flask(__name__)
-
+import nltk
+nltk.download('punkt')
 # Model saved with Keras model.save()
 # update3
 MODEL_PATH = 'MobileNet_v2.h5'
