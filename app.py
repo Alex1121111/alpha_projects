@@ -17,9 +17,7 @@ import os
 import cv2
 import numpy as np
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-
 # New imports
-
 # Keras
 
 # Flask utils

@@ -28,7 +28,6 @@ model.eval()
 bot_name = "Sam"
 
 def get_response(msg):
-    nltk.download('punkt')
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
