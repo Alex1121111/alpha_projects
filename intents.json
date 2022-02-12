@@ -24,6 +24,11 @@
          "responses": ["Ask me how to make prediction.", "Want help contacting us?", "Ask me about what plants we currently support", "Ask me about diseases we support?","predictions not working?","Are you getting incorrect predictions?"],
          "context": [""]
         },
+        {"tag": "Love",
+         "patterns": ["Will you marry me?", "Do you love me?","Can we Be together forever","Will you stay by my side","can we ever get together","Will you go on a date with me","should we go out on a date","Let's hangout at night","Let's go on a date","How's your mood today"],
+         "responses": ["Yes","Yes,Let's do it!","Do you want a night stand in my house","Let's have a baby Flask `uwu`","Our descendents will be gorgeous","Our baby name will be Flason 'uwu'"],
+         "context": [""]
+        },
         {"tag": "stepspredictions",
          "patterns": ["How to check crop diseases?", "what are the steps involved to make predictions", "Give me a list of steps involved to make predictions", "List all steps involved to make prediction", "Which steps are involved to make predictions?" ,"How to make predictions?","How can i predict?"],
          "responses": ["Steps for predictions:<ol><li>Login using otp.</li><li>Take the photo of infected leaf. </li><li>Choose captured image.</li><li>Click on predict.</li></ol> "],
