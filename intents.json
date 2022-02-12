@@ -25,28 +25,28 @@
          "context": [""]
         },
         {"tag": "stepspredictions",
-         "patterns": ["How to check crop diseases?", "what are the steps involved to make predictions", "Give me a list of steps involved to make predictions", "List all steps involved to make prediction", "Which steps are involved to make predictions?" ,"How to make predictions?"],
-         "responses": ["Navigating to make predictions:\n 1.Take a clear photo of crop leaf \n2. Select choose file \n3.Click predict. "],
+         "patterns": ["How to check crop diseases?", "what are the steps involved to make predictions", "Give me a list of steps involved to make predictions", "List all steps involved to make prediction", "Which steps are involved to make predictions?" ,"How to make predictions?","How can i predict?"],
+         "responses": ["Steps for predictions:<ol><li>Login using otp.</li><li>Take the photo of infected leaf. </li><li>Choose captured image.</li><li>Click on predict.</li></ol> "],
          "context": [""]
         },
         {"tag": "contactUs",
          "patterns": ["I'm getting incorrect predictions", "your website isn't working", "I'm facing problem with your website", "I'm facing some issues", "I would like to speak to customer service","customer service","I would like to speak to customer care","chat with customer care" ,"I need help","predictions are not working for my image"],
-         "responses": ["Please contact us using our support page, \nOur Team will get in touch with you. "],
+         "responses": ["Please contact us using our support page, <br>Our Team will get in touch with you. "],
          "context": [""]
         },
         {"tag": "plant_list",
          "patterns": ["I want to know which plants I can predict ", "List of supported plants", "", "Show plant supported", "can you show me plant's list","What plants do you support" ,"What plants can i predict"],
-         "responses": ["Our system can detect crop leaf diseases for plant like \nApple, \nCorn, \nGrape, \nPepper Bell, \nPotato, \nRice, \nTomato, and Wheat."],
+         "responses": ["Our system can detect crop leaf diseases for following plants:<br><ol><li>Apple</li><li>Corn</li><li>Grape</li><li>Pepper Bell</li><li>Potato</li><li>Rice</li><li>Tomato</li><li>Wheat</li></ol>"],
          "context": ["search_blood_pressure_by_patient_id"]
         },
         {"tag": "Diseases_list",
          "patterns": ["can you tell me diseases list","what diseases can I predict","what are the diseases","can you list all diseases"],
-         "responses": ["Our system can detect 28 different crop leaf diseases for plants like Apple,Potato etc..."],
+         "responses": ["Our system can detect following diseases: <ol><li>Apple scab</li><li>Apple Black rot</li><li>Apple Cedar apple rust</li><li>Apple healthy</li><li>Corn Cercospora leaf spot</li><li>Corn Common rust</li><li>Corn healthy</li><li>Corn Northern Leaf Blight</li><li>Grape Black_rot</li><li>Grape Esca </li><li>Grape healthy</li><li>Grape Leaf blight</li><li>Pepper bell Bacterial_spot</li><li>Pepper bell healthy</li><li>Potato Early blight</li><li>Potato healthy</li><li>Potato Late blight</li><li>Rice Bacterial leaf blight</li><li>Rice Leaf smut</li><li>RiceBrown spot</li><li>Tomato Bacterial spot</li><li>Tomato Early blight</li><li>Tomato healthy</li><li>Tomato Late blight</li><li>Tomato Leaf Mold</li><li>Tomato Septoria leaf spot</li><li>Tomato Spider mites Two spotted spider mite</li><li>Tomato Target_Spot</li><li>Tomato Tomato mosaic virus</li><li>Tomato Tomato Yellow Leaf Curl Virus</li><li>Wheat Healthy</li><li>Wheat septoria</li><li>Wheat stripe rust</li></ol>"],
          "context": [""]
         },
         {"tag": "loginissue",
          "patterns": ["I'm not able to login", "unable to login", "login issue", "otp not received", "otp not working","I didn't receive any otp","I didn't receive OTP","" ],
-         "responses": ["We are extreamly sorry for this \n please use https://cropify.onrender.com/index for predictions."],
+         "responses": ["We are extreamly sorry for this </li><li> please use <href https://cropify.onrender.com/index> for predictions."],
          "context": [""]
         }
    ]
