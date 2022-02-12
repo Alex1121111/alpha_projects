@@ -21,7 +21,7 @@
         },
         {"tag": "options",
          "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
-         "responses": ["Ask me how to make prediction.", "Want help contacting us?", "Ask me about what plants we currently support", "Ask me about what diseases we currently support?","predictions not working?","Are you getting incorrect predictions?"],
+         "responses": ["Ask me how to make prediction.", "Want help contacting us?", "Ask me about what plants we currently support", "Ask me about diseases we support?","predictions not working?","Are you getting incorrect predictions?"],
          "context": [""]
         },
         {"tag": "stepspredictions",
@@ -30,24 +30,24 @@
          "context": [""]
         },
         {"tag": "contactUs",
-         "patterns": ["I'm getting incorrect predictions", "website not working", "I'm facing problem with your website", "I'm facing some issues", "I would like to speak to customer service","customer service","I would like to speak to customer care","chat with customer care" ],
-         "responses": ["Contact Us by following these steps:\n1.select Help on the top right of your screen. \n2.Give your details along with the problem you're facing\n3.Click send message"],
+         "patterns": ["I'm getting incorrect predictions", "your website isn't working", "I'm facing problem with your website", "I'm facing some issues", "I would like to speak to customer service","customer service","I would like to speak to customer care","chat with customer care" ,"I need help","predictions are not working for my image"],
+         "responses": ["Please contact us using our support page, \nOur Team will get in touch with you. "],
          "context": [""]
         },
         {"tag": "plant_list",
          "patterns": ["I want to know which plants I can predict ", "List of supported plants", "", "Show plant supported", "can you show me plant's list","What plants do you support" ,"What plants can i predict"],
-         "responses": ["Our system can detect crop leaf diseases for following plants:\n1.Apple \n2.Corn \n3.Grape \n4.Pepper Bell \n5.Potato \n6.Rice \n7.Tomato\n8.Wheat."],
+         "responses": ["Our system can detect crop leaf diseases for plant like \nApple, \nCorn, \nGrape, \nPepper Bell, \nPotato, \nRice, \nTomato, and Wheat."],
          "context": ["search_blood_pressure_by_patient_id"]
         },
         {"tag": "Diseases_list",
          "patterns": ["can you tell me diseases list","what diseases can I predict","what are the diseases","can you list all diseases"],
-         "responses": ["Oursystem can detect crop leaf diseases:\n1.Apple scab \n2.Apple Black rot\n3.Apple Cedar apple rust\n4.Apple healthy\n5.Corn Cercospora leaf spot\n6.Corn Common rust\n1.Corn healthy\n7.Corn Northern Leaf Blight\n8.Grape Black_rot\n9.Grape Esca \n10.Grape healthy\n11.Grape Leaf blight\n12.Pepper bell Bacterial_spot\n13.Pepper bell healthy\n14.Potato Early blight\n15.Potato healthy\n16.Potato Late blight\n17.Rice Bacterial leaf blight\n18.Rice Leaf smut\n1.RiceBrown spot\n19.Tomato Bacterial spot\n20.Tomato Early blight\n20.Tomato healthy\n21.Tomato Late blight\n22.Tomato Leaf Mold\n23.Tomato Septoria leaf spot\n24.Tomato Spider mites Two spotted spider mite\n25.Tomato Target_Spot\n26.Tomato Tomato mosaic virus\n27.Tomato Tomato Yellow Leaf Curl Virus\n28.Wheat Healthy\n29.Wheat septoria\n30.Wheat stripe rust"],
+         "responses": ["Our system can detect 28 different crop leaf diseases for plants like Apple,Potato etc..."],
          "context": [""]
         },
         {"tag": "loginissue",
-         "patterns": ["I'm not able to login", "unable to login", "login issue", "otp not received", "otp not working" ],
+         "patterns": ["I'm not able to login", "unable to login", "login issue", "otp not received", "otp not working","I didn't receive any otp","I didn't receive OTP","" ],
          "responses": ["We are extreamly sorry for this \n please use https://cropify.onrender.com/index for predictions."],
-         "context": ["search_pharmacy_by_name"]
+         "context": [""]
         }
    ]
 }
