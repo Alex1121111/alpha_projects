@@ -35,8 +35,8 @@
          "context": [""]
         },
         {"tag": "contactUs",
-         "patterns": ["I'm getting incorrect predictions", "your website isn't working", "I'm facing problem with your website", "I'm facing some issues", "I would like to speak to customer service","customer service","I would like to speak to customer care","chat with customer care" ,"I need help","predictions are not working for my image"],
-         "responses": ["Please contact us using our support page, <br>Our Team will get in touch with you. "],
+         "patterns": ["I'm getting incorrect predictions", "your website isn't working", "I'm facing problem with your website", "I'm facing some issues", "I would like to speak to customer service","customer service","I would like to speak to customer care","chat with customer care" ,"I need help","predictions are not working for my image","I want to contact developer","I would like to contact customer service"],
+         "responses": ["We are extreamly sorry for this please contact us using <a class='click' href='/contact' target='_blank'>this link.</a>, Our Team will get in touch with you."],
          "context": [""]
         },
         {"tag": "plant_list",
