@@ -25,7 +25,12 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 # Define a flask app
 app = Flask(__name__)
 import nltk
-nltk.download('punkt')
+try:
+    nltk.data.find('tokenizers/punkt')
+    print("NLTK FOUND")
+except LookupError:
+    print("NLTK NOT FOUND")
+    nltk.download('punkt')
 # Model saved with Keras model.save()
 # update3
 MODEL_PATH = 'MobileNet_v2.h5'
