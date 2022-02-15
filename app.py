@@ -185,6 +185,7 @@ def predictchat():
     response=get_response(text)
     message={"answer":response}
     return jsonify(message)
+    
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
